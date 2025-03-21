@@ -1,0 +1,10 @@
+name = "stonks-bot"
+main = "index.js"
+compatibility_date = "2024-03-01"
+
+kv_namespaces = [
+  { binding = "STONKS_BOT_KV", id = "STONKS_BOT_KV" }
+]
+
+[triggers]
+crons = ["0 21 * * Mon-Fri"]  # 4 PM EST (9 PM UTC)
