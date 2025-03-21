@@ -1,4 +1,4 @@
-name = "stonks-bot"
+name = "stonks-alert-bot"
 main = "index.js"
 compatibility_date = "2024-03-01"
 
